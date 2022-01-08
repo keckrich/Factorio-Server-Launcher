@@ -1,0 +1,3 @@
+To build with Auto py to exe need to add the following to --hidden-import:
+	websockets.legacy
+	websockets.legacy.client

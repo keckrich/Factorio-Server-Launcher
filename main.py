@@ -73,7 +73,7 @@ def log_in(secret):
 def start_server(secret):
     param = {'visitSecret':secret,
          'region':'us-east-1',
-         'version':'1.1.39',
+         'version':'1.1.50',
          'save':'slot1'
          }
     r = requests.post(url = sURL, data = param)
