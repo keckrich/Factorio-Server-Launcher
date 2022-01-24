@@ -73,7 +73,7 @@ def log_in(secret):
 def start_server(secret):
     param = {'visitSecret':secret,
          'region':'us-east-1',
-         'version':'1.1.50',
+         'version':'1.1.53',
          'save':'slot1'
          }
     r = requests.post(url = sURL, data = param)
@@ -83,7 +83,7 @@ print('program started\nchecking status of server...\n\n')
 is_server_on = asyncio.get_event_loop().run_until_complete(hello())
 if not is_server_on:
     print('server is starting please wait')
-    for i in range(15):
+    for i in range(120):
         print ('.'*(i+1))
         time.sleep(1)
     asyncio.get_event_loop().run_until_complete(hello())
