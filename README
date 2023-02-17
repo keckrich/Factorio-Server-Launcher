@@ -1,3 +1,6 @@
+To start env:
+	.\.env\Scripts\activate
+
 To build run: auto-py-to-exe
 
 Change to "One File"
@@ -5,3 +8,4 @@ Change to "One File"
 To build with Auto py to exe need to add the following to --hidden-import:
 	websockets.legacy
 	websockets.legacy.client
+
