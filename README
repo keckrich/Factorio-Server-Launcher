@@ -1,11 +1,13 @@
 To start env:
 	this project works with python 3.10.9
-	
+
 	python -m venv .env
 	.\.env\Scripts\activate
 	pip install -r requirements.txt
 
 To build run: auto-py-to-exe
+
+import config json from settings tab
 
 Change to "One File"
 
